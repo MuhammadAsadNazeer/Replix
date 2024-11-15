@@ -1,0 +1,325 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+footer {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #233E99;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #233E99;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Form Styling */
+.Replix-form {
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+.Replix-form:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section label {
+    font-size: 1.2rem;
+    color: #233E99;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="checkbox"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="file"]:focus {
+    border-color: #233E99;
+    background-color: #f0f8ff;
+    outline: none;
+}
+
+button#add[type="button"] {
+    background-color: #27a133;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button#add:hover {
+    background-color: #1e812a;
+}
+
+/* Primary Buttons */
+input[type="button"], button[type="button"] {
+    padding: 12px 20px;
+    background-color: #233E99;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input[type="button"]:hover, button[type="button"]:hover {
+    background-color: #4C76E8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+input[type="button"]:active, button[type="button"]:active {
+    background-color: #1B2D66;
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for Search Replace Pairs */
+#searchReplacePairs {
+    margin-bottom: 15px;
+}
+
+.search-replace-pair {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.search-replace-pair input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.search-replace-pair input:focus {
+    border-color: #233E99;
+    background-color: #f0f8ff;
+}
+
+.search-replace-pair button {
+    background-color: #FF6F61;
+    color: white;
+    margin-top: 0px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.search-replace-pair button:hover {
+    background-color: #D65B56;
+    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.4);
+}
+
+.search-replace-pair button:active {
+    background-color: #B9463B;
+    box-shadow: inset 0 2px 6px rgba(255, 111, 97, 0.4);
+}
+
+/* Container to hold both social media icons and donation button in a single line */
+.social-media-and-donate {
+    display: flex;
+    justify-content: space-between; /* Space between the icons and the donation button */
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Space between the social media icons and the button */
+    margin: 10px 0; /* Add margin at the top and bottom */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    flex-wrap: wrap; /* Allow wrapping of icons on smaller screens */
+}
+
+.social-media-icons .icon {
+    font-size: 20px; /* Increase the icon size */
+    padding: 15px;
+    background-color: #fff; /* White background */
+    border-radius: 50%; /* Circular shape */
+    display: inline-block; /* Ensures the icon is inline */
+    color: #555; /* Default color */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Custom colors for each social media icon */
+.social-media-icons .icon.facebook {
+    background-color: #3b5998; /* Facebook blue */
+    color: #fff;
+}
+
+.social-media-icons .icon.twitter {
+    background-color: #55acee; /* Twitter blue */
+    color: #fff;
+}
+
+.social-media-icons .icon.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+    color: #fff;
+}
+
+.social-media-icons .icon.instagram {
+    background-color: #e1306c; /* Instagram pink */
+    color: #fff;
+}
+
+/* Hover effect for social media icons */
+.social-media-icons .icon:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* YouTube icon red color */
+.social-media-icons .youtube i {
+    color: #FF0000; /* Red color for YouTube icon */
+}
+
+/* Big Donation Button */
+.donation-button {
+    display: flex;
+    align-items: center; /* Vertically align the button */
+    justify-content: flex-start; /* Align button to the left */
+}
+
+.big-donation-btn {
+    background-color: #ff5733; /* Orange color for the button */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px; /* Larger text */
+    font-weight: bold;
+    border: none;
+    border-radius: 50px; /* Rounded edges */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.big-donation-btn:hover {
+    background-color: #ff4500; /* Darker shade of orange on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+.big-donation-btn:active {
+    transform: scale(0.98); /* Slightly shrink when clicked */
+}
+
+
+/* Hyperlink Styling */
+a {
+    color: #233E99;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #4C76E8;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #1B2D66;
+}
+
+/* Styling for Checkbox Group */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.checkbox-group div {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .Replix-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .form-section input[type="button"] {
+        width: 100%;
+    }
+
+    .search-replace-pair input {
+        width: 100%;
+    }
+
+    .search-replace-pair button {
+        width: 100%;
+    }
+}
