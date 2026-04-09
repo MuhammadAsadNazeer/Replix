@@ -108,7 +108,6 @@ button#add:hover {
     background-color: #1e812a;
 }
 
-/* Primary Buttons */
 input[type="button"], button[type="button"] {
     padding: 12px 20px;
     background-color: #233E99;
@@ -180,7 +179,6 @@ input[type="button"]:active, button[type="button"]:active {
     box-shadow: inset 0 2px 6px rgba(255, 111, 97, 0.4);
 }
 
-/* Container to hold both social media icons and donation button in a single line */
 .social-media-and-donate {
     display: flex;
     justify-content: space-between; /* Space between the icons and the donation button */
@@ -190,7 +188,6 @@ input[type="button"]:active, button[type="button"]:active {
     flex-wrap: wrap; /* Allow wrapping if needed */
 }
 
-/* Social Media Icons */
 .social-media-icons {
     display: flex;
     gap: 15px; /* Space between icons */
@@ -208,7 +205,6 @@ input[type="button"]:active, button[type="button"]:active {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
-/* Custom colors for each social media icon */
 .social-media-icons .icon.facebook {
     background-color: #3b5998; /* Facebook blue */
     color: #fff;
@@ -229,18 +225,15 @@ input[type="button"]:active, button[type="button"]:active {
     color: #fff;
 }
 
-/* Hover effect for social media icons */
 .social-media-icons .icon:hover {
     transform: scale(1.1); /* Slight zoom effect */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
 }
 
-/* YouTube icon red color */
 .social-media-icons .youtube i {
     color: #FF0000; /* Red color for YouTube icon */
 }
 
-/* Big Donation Button */
 .donation-button {
     display: flex;
     align-items: center; /* Vertically align the button */
@@ -270,8 +263,6 @@ input[type="button"]:active, button[type="button"]:active {
     transform: scale(0.98); /* Slightly shrink when clicked */
 }
 
-
-/* Hyperlink Styling */
 a {
     color: #233E99;
     text-decoration: none;
