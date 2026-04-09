@@ -1,8 +1,10 @@
-# Replix - Search and Replace (https://hedows.com/portfolio/replix/)
+# Replix - Advanced Search and Replace (https://hedows.com/portfolio/replix/)
 Replix is a powerful and easy-to-use software designed to help you quickly find and replace text in files, folders, or even entire projects. Whether you're a writer, programmer, or just someone organizing a lot of data, Replix makes your search and replace tasks fast, accurate, and stress-free in files and folders within a specified directory.</br></br>
 ![Replix - Search and Replace](https://github.com/user-attachments/assets/aa42b7c9-ffa5-488d-ab45-e78e4e87db86)
+
 **<h2>Case Sensitive</h2>**</br>
 This decides if the search pays attention to big and small letters. For example, do "Cat" and "cat" count as the same, or are they different?</br></br>
+
 If **"Case Sensitive" is Checked** The search will only match the same letters, big or small. For example, if you search for "Cat," it will not find "cat."</br></br>
 If **"Case Sensitive" is Unchecked** The search doesn’t care about big or small letters. It will treat "Cat," "cat," or even "CAT" as the same thing.</br></br>
 This is useful when you need to be extra careful about how things are written, like in computer programming or if you're following special rules.</br></br>
